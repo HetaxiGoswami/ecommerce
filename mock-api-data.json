@@ -1,0 +1,278 @@
+{
+  "user": [
+    {
+      "name": "Hetaxi Goswami",
+      "mobNumber": "1234567891",
+      "age": 22,
+      "dob": "2002-01-10",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "address": {
+        "addLine1": "District ",
+        "addLine2": "paachatadiya",
+        "city": "Balasinor",
+        "state": "Delhi",
+        "zipCode": "110052"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "French",
+        "Telgu",
+        "Kannad"
+      ],
+      "gender": "female",
+      "aboutYou": "I am a programmer...",
+      "uploadPhoto": "hetaxi.png",
+      "agreetc": true,
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "id": "64e4",
+      "aboutYou": "hllllllllllllllllyyyyyyyyyyyyyyyyyyyyyyybsgdhcvusydcskbdc",
+      "age": 22,
+      "agreetc": true,
+      "dob": "2024-07-04",
+      "email": "meet18101@gmail.com",
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "D-470",
+        "addLine2": "Panch Hatadiya",
+        "city": "MAHISAGAR",
+        "state": "...",
+        "zipCode": "388255"
+      },
+      "language": [
+        "Hindi"
+      ],
+      "mobNumber": "0987654321",
+      "name": "helly",
+      "password": "18101810",
+      "uploadPhoto": "C:\\fakepath\\Graphic 1.png",
+      "role": "seller"
+    },
+    {
+      "id": "7b84",
+      "aboutYou": "ksdhskdujfnxfnk",
+      "age": 23,
+      "agreetc": true,
+      "dob": "2024-07-09",
+      "email": "meetpurohit1011@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "D-470",
+        "addLine2": "Panch Hatadiya",
+        "city": "MAHISAGAR",
+        "state": "...",
+        "zipCode": "388255"
+      },
+      "language": [
+        "English"
+      ],
+      "mobNumber": "087653313456",
+      "name": "meet purohit",
+      "password": "Meet@1810",
+      "uploadPhoto": "C:\\fakepath\\add.png",
+      "role": "buyer"
+    },
+    {
+      "id": "9ea2",
+      "aboutYou": "sds",
+      "age": 22,
+      "agreetc": true,
+      "dob": "2024-07-10",
+      "email": "hely2020@gmai.com",
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "bala",
+        "addLine2": "skjfdh",
+        "city": "ahmd",
+        "state": "Gujarat",
+        "zipCode": "12345"
+      },
+      "language": [
+        "Hindi"
+      ],
+      "mobNumber": "123456780",
+      "name": "helt",
+      "password": "1234567",
+      "uploadPhoto": "C:\\fakepath\\Rectangle 17 (2).png",
+      "role": "seller"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Laptop_collage.jpg/800px-Laptop_collage.jpg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": 2,
+      "name": "Water Bottle",
+      "uploadPhoto": "https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": 3,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 4,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 5,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jx0prbk0/mobile-holder/t/3/d/aluminium-portable-stand-with-convenient-charging-port-design-original-imafhkkxjvphhhgz.jpeg",
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "mrp": "300",
+      "dp": "199",
+      "status": "inactive"
+    },
+    {
+      "id": 6,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": 7,
+      "name": "Water Bottle",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/bottle/w/5/g/1000-cello-h2o-cello-h2o-water-bottel-cello-original-imaeqtj3vyxyehmn.jpeg",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": 8,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 9,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jx0prbk0/mobile-holder/t/3/d/aluminium-portable-stand-with-convenient-charging-port-design-original-imafhkkxjvphhhgz.jpeg",
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "mrp": "300",
+      "dp": "199",
+      "status": "inactive"
+    },
+    {
+      "id": 10,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": 11,
+      "name": "Water Bottle",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/bottle/w/5/g/1000-cello-h2o-cello-h2o-water-bottel-cello-original-imaeqtj3vyxyehmn.jpeg",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": 12,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 13,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jx0prbk0/mobile-holder/t/3/d/aluminium-portable-stand-with-convenient-charging-port-design-original-imafhkkxjvphhhgz.jpeg",
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "mrp": "300",
+      "dp": "199",
+      "status": "inactive"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": 560037
+      },
+      "contact": "09040398006",
+      "dateTime": "18/07/2019"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 3,
+        "name": "Metro Living Self Design Pillows Cover",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+        "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+        "mrp": "500",
+        "dp": "399",
+        "status": "draft"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "1/27/2024"
+    }
+  ]
+}
+
+
