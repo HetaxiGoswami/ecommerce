@@ -13,6 +13,7 @@ export class LoginSignupService {
   public reg_url = "http://localhost:3000";
 
   constructor(private http:HttpClient, private apiService:ApiService) { }
+  
   authLogin(user_name:any, password:any):Observable<any>{
     return this.apiService.get(this.login_url+'/user?email='+user_name+'&password='+password);
   }

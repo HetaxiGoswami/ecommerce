@@ -10,8 +10,6 @@ export class ApiService {
   httpOptions = {
     headers: new HttpHeaders({
       "Content-Type": "application/json",
-      // Remove this line
-      // "Access-Control-Allow-Origin": "*"
     })
   }
   constructor(private http: HttpClient) { }

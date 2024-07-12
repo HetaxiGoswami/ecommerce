@@ -18,9 +18,11 @@ export class CustomerService {
   allProduct():Observable<any>{
     return this.apiService.get(this.product_url);
   }
+  
   quickBuyProduct(product_id:any){
     this.single_poduct_id.next(product_id)
   }
+  
   individualProduct(id:any){
     return this.apiService.get(this.product_url+id);
   }

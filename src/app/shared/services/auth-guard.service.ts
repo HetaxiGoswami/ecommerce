@@ -18,7 +18,7 @@ export class AuthGuardService implements CanActivate  {
   }
 }
 
-//Admin after login check
+
 @Injectable({
   providedIn: 'root'
 })
@@ -35,7 +35,6 @@ export class AdminAuthGaurdService implements CanActivate {
   }
 }
 
-//Customer(Buyer & Seller) before login
 @Injectable({
   providedIn: "root"
 })
@@ -55,7 +54,6 @@ export class SellerBuyerAuthGuardLogin implements CanActivate {
   }
 }
 
-//Seller(Customer) after login
 @Injectable({
   providedIn: 'root'
 })
@@ -72,7 +70,6 @@ export class SellerAuthGaurdService {
   }
 }
 
-//Buyer(Customer) after login
 @Injectable({
   providedIn: 'root'
 })

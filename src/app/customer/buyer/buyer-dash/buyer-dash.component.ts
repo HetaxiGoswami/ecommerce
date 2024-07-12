@@ -22,6 +22,8 @@ export class BuyerDashComponent {
   ngOnInit(): void {
     this.getAllProduct();
   }
+
+  //all product dekhai che pn hu je add karu chu te nai dekhatu 
   getAllProduct() {
     this.customerService.allProduct().subscribe(
       (data) => {
@@ -34,11 +36,13 @@ export class BuyerDashComponent {
     );
   }
 
+  //je show checkout aiya true thai jase ane service mathi id laine next karse 
   buyProduct(id: number) {
     this.show_Checkout = true;
     this.customerService.quickBuyProduct(id);
     this.router.navigateByUrl('/checkout');
   }
+
   addToCart() {
     alert('This is showcase');
   }

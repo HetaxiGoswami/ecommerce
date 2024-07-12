@@ -73,7 +73,7 @@ export const routes: Routes = [
     canActivate:[SellerAuthGaurdService],
     children: [
       { path: 'seller-dashboard', component: SellerDashComponent },
-      { path: 'seller/product', component: SellerProductComponent },
+      { path: 'seller/product', component: ProductComponent },
     ],
   },
 

@@ -74,7 +74,7 @@
       ],
       "mobNumber": "087653313456",
       "name": "meet purohit",
-      "password": "Meet@1810",
+      "password": " ",
       "uploadPhoto": "C:\\fakepath\\add.png",
       "role": "buyer"
     },
@@ -102,6 +102,81 @@
       "password": "1234567",
       "uploadPhoto": "C:\\fakepath\\Rectangle 17 (2).png",
       "role": "seller"
+    },
+    {
+      "id": "d3c4",
+      "aboutYou": "11111",
+      "age": 30,
+      "agreetc": true,
+      "dob": "2024-07-27",
+      "email": "pretty18102gmail.com",
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "D-470",
+        "addLine2": "Panch Hatadiya",
+        "city": "Balasinor",
+        "state": "Gujarat",
+        "zipCode": "388255"
+      },
+      "language": [
+        "Bengali"
+      ],
+      "mobNumber": "8866012397",
+      "name": "pretty",
+      "password": "654321",
+      "uploadPhoto": "C:\\fakepath\\Graphic 1.png",
+      "role": "seller"
+    },
+    {
+      "id": "8d03",
+      "aboutYou": "AD",
+      "age": 44,
+      "agreetc": true,
+      "dob": "2024-07-14",
+      "email": "sonalgosai2308@gmail.com",
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "D-470",
+        "addLine2": "Panch Hatadiya",
+        "city": "MAHISAGAR",
+        "state": "Gujarat",
+        "zipCode": "388255"
+      },
+      "language": [
+        "Hindi"
+      ],
+      "mobNumber": "0987654321",
+      "name": "sonalben",
+      "password": "sonal@1810",
+      "uploadPhoto": "C:\\fakepath\\Ellipse 1131.png",
+      "role": "seller"
+    },
+    {
+      "id": "c75f",
+      "aboutYou": "helloo",
+      "age": 23,
+      "agreetc": true,
+      "dob": "2024-07-11",
+      "email": "purohitmeet1081@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "D-470",
+        "addLine2": "Panch Hatadiya",
+        "city": "Balasinor",
+        "state": "Gujarat",
+        "zipCode": "388255"
+      },
+      "language": [
+        "English"
+      ],
+      "mobNumber": "0987654321",
+      "name": "Meet",
+      "password": "meet@1081",
+      "uploadPhoto": "C:\\fakepath\\Group 5 (1).png",
+      "role": "buyer"
     }
   ],
   "products": [
@@ -221,6 +296,51 @@
       "mrp": "300",
       "dp": "199",
       "status": "inactive"
+    },
+    {
+      "id": 0,
+      "name": "dress",
+      "uploadPhoto": "dont know",
+      "productDesc": "woslae",
+      "mrp": "1000",
+      "dp": "2",
+      "status": "darft"
+    },
+    {
+      "id": 0,
+      "name": "dress",
+      "uploadPhoto": "dont know",
+      "productDesc": "woslae",
+      "mrp": "1000",
+      "dp": "2",
+      "status": "darft"
+    },
+    {
+      "id": 0,
+      "name": "dress",
+      "uploadPhoto": "dont know",
+      "productDesc": "woslae",
+      "mrp": "1000",
+      "dp": "2",
+      "status": "darft"
+    },
+    {
+      "id": 0,
+      "name": "dress",
+      "uploadPhoto": "dont know",
+      "productDesc": "woslae",
+      "mrp": "1000",
+      "dp": "2",
+      "status": "darft"
+    },
+    {
+      "id": 0,
+      "name": "laptops",
+      "uploadPhoto": "https://www.google.com/imgres?q=image%20url&imgurl=https%3A%2F%2Fwww.wikihow.com%2Fimages%2Fthumb%2Fd%2Fdb%2FGet-the-URL-for-Pictures-Step-2-Version-6.jpg%2Fv4-460px-Get-the-URL-for-Pictures-Step-2-Version-6.jpg&imgrefurl=https%3A%2F%2Fwww.wikihow.com%2FGet-the-URL-for-Pictures&docid=VCxJJCKhpGWazM&tbnid=CVh9Aszc16huLM&vet=12ahUKEwjzhpHf8J6HAxWcgGMGHen-DhkQM3oECBUQAA..i&w=460&h=345&hcb=2&ved=2ahUKEwjzhpHf8J6HAxWcgGMGHen-DhkQM3oECBUQAA",
+      "productDesc": "sell laptops",
+      "mrp": "50000",
+      "dp": "2",
+      "status": "publish"
     }
   ],
   "orders": [
@@ -274,5 +394,3 @@
     }
   ]
 }
-
-

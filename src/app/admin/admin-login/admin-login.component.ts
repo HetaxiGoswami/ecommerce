@@ -22,6 +22,8 @@ export class AdminLoginComponent implements OnInit{
   ngOnInit(): void {
 
   }
+
+  // useremail and password session ma set karavse length check je data response thaje khali ek user par 
   onSubmitSignIn(){
     this.loginService.adminLogin(this.signInFormValue.userEmail, this.signInFormValue.userPassword).subscribe(data =>{
       this.user_data = data;
@@ -34,7 +36,7 @@ export class AdminLoginComponent implements OnInit{
       }
       console.log(this.user_data);
     },error=>{
-      console.log("My Error", error)
+      console.log(" Error", error)
     })
   }
 }

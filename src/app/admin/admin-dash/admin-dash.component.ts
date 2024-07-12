@@ -12,13 +12,11 @@ import { CommonModule } from '@angular/common';
 })
 export class AdminDashComponent implements OnInit{
 
-
   user_dashboard_data: any;
   total_user: number = 0;
   admin_user: number = 0;
   seller_user: number = 0;
   buyer_user: number = 0;
-
   product_dashboard_data: any;
   total_product: number = 0;
   publish_product: number = 0;
@@ -31,12 +29,16 @@ export class AdminDashComponent implements OnInit{
     this.adminProductDashboard();
     this.adminUserDashboardData()
   }
+
   userDashboard() {
     this.router.navigateByUrl("/admin/user");
   }
+
   productDashboard() {
     this.router.navigateByUrl("/admin/product")
   }
+  
+  // aa functin manage kare che k keta buyers sellers che 
   adminUserDashboardData() {
     this.adminService.userDashboardData().subscribe(data => {
       this.user_dashboard_data = data;
@@ -56,6 +58,8 @@ export class AdminDashComponent implements OnInit{
     })
   }
 
+
+  // product nu check akre che status su che 
   adminProductDashboard() {
     this.adminService.productDashboardData().subscribe(data => {
       this.product_dashboard_data = data;

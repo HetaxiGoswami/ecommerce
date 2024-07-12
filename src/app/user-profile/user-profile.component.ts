@@ -51,9 +51,12 @@ export class UserProfileComponent implements OnInit{
     this.editUserData(this.user_id)
   }
 
+  // aa fuction je form hase a default set thase form control thi get method thi 
   get rf(){
     return this.userProfileForm.controls;
   }
+
+
   editUserData(user_id: any) {
     this.user_Service.getUserData(user_id).subscribe({
       next: (data) => {
