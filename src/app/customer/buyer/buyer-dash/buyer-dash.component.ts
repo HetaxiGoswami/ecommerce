@@ -11,7 +11,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './buyer-dash.component.scss',
 })
 export class BuyerDashComponent {
+
+  // Do: je api na data che te aa variable ma store karave che 
   all_products: any;
+
+  // Do: aa atyare false ma rese jyare product buy thase tyare j true thase 
   show_Checkout: boolean = false;
 
   constructor(

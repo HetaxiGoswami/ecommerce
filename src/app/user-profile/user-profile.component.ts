@@ -5,8 +5,6 @@ import { UserService } from '../shared/services/user.service';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
-
-
 @Component({
   selector: 'app-user-profile',
   standalone: true,
@@ -135,3 +133,4 @@ export class UserProfileComponent implements OnInit{
   }
   
 }
+

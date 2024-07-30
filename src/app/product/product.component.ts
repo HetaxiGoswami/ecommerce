@@ -15,15 +15,34 @@ import { Product } from '../core/model/object.model';
 })
 export class ProductComponent {
 
+
+  // Do: badha products get thase api throw je data aavse te aa variable ma store karaya che
   all_product_data:any
+
+  // Do: aama je formgroup che te reactive form mate use thayu che ane add/edit karava use thae 
   addEditProductDForm!:FormGroup;
+
+  // badha ma modal ek j che add, edit ma pn etle aama true and false varu kariyu che
+  // Do: edit vakhat je edit na button par je function hase ama aa variable true thase , true thase etle modal open thase edit mate
   addEditProduct:boolean = false;
+
+  // Do: je popup ma katu header aavse add nu k edit nu te display karavse  
   popup_header!:string;
+
+  // Do: add and edit roduct mode dekhase k if aa variable hase toh kayo mode hase 
   add_prouct!:boolean;
   edit_prouct!:boolean;
+
+  // Do: je product form data che te store karavse
   prouct_data:any;
+
+  // Do: edit karva mate particular id thi karavse  
   single_product_data:any;
+
+  // Do: product model ma product fields ni details che te aa variable ma store karai didhu che
   product_dto!:Product
+
+  // Do: product edit karva mate ni Id 
   edit_product_id:any;
 
   constructor(private fb:FormBuilder, private router:Router, private productService:ProductService){
@@ -55,7 +74,7 @@ export class ProductComponent {
     })
   }
 
-
+// product add karva mate nu che 
   addProductPopup(){
     this.add_prouct = true;
     this.edit_prouct = false;

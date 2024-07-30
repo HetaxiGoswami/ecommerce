@@ -12,10 +12,19 @@ import { Router } from '@angular/router';
 })
 export class SellerDashComponent implements OnInit{
 
+  // Do: je seller hase tena data api throw aa variable ma thase 
   order_dashboard_data:any;
+
+  // Do: total order ma orders batavse ketla che
   total_order:any;
+
+  // Do: chelle kyare order thayu che te aama store thase and ui ma date batavse
   last_order_date:any;
+
+  // DO: aa variable ma jetla data che product dashboard ma te storse karse ane aana par publish , inacive ane draft hase
   product_dashboard_data:any;
+
+  // Do: aa 4 ui ma ketlu che increment che tena status par kam karse
   total_product:number =0;
   publish_product:number =0;
   inactive_product:number =0;

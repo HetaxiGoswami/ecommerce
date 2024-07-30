@@ -11,8 +11,9 @@ import { Router, RouterLink } from '@angular/router';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent implements OnInit {
+
+
   logged_in: boolean = false;
-  language: string = 'English';
   user_role!: any;
 
   constructor(private router: Router) {}

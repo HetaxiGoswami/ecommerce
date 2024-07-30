@@ -14,8 +14,13 @@ import { Router } from '@angular/router';
 })
 export class AdminLoginComponent implements OnInit{
 
-  signInFormValue:any ={};
+  // Do: admin sign in karva mate aama aakho object store karavse 
+  signInFormValue:any = {};
+  
+  
+  // Do: aa variable ma api na data store thase 
   user_data:any;
+
   constructor(private router:Router, private loginService:LoginSignupService){
 
   }

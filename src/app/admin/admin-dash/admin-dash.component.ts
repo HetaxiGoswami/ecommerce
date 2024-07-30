@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 export class AdminDashComponent implements OnInit{
 
   user_dashboard_data: any;
-  total_user: number = 0;
+  total_user: number = 0; 
   admin_user: number = 0;
   seller_user: number = 0;
   buyer_user: number = 0;

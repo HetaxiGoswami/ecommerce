@@ -13,12 +13,26 @@ import { Router } from '@angular/router';
 })
 export class CheckoutComponent implements OnInit{
 
+
+  // Do: product ni id store karse tyare checkout thase 
   single_product_id:any;
+
+  // DO: user id store karse 
   user_id:any;
+
+  // Do: aa variable ma Product nu model ma badhi fields have product ni 
   individual_product!:Product;
+
+  // Do: aa variable ma User nu model ma badhi fields have User ni 
   user_detail!:User;
+
+  // Do: user na address store karse 
   user_address:any;
+
+  // Do: user contact store karse 
   user_contact_no:any;
+
+  // Do: aa variable ma Order nu model ma badhi fields have Order ni 
   order_dto!:Order
   
     constructor(private customerService:CustomerService, private router:Router){}

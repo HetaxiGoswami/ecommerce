@@ -9,7 +9,6 @@ import {
 } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 
-import { HttpClientModule } from '@angular/common/http';
 import { LoginSignupService } from '../../shared/services/login-signup.service';
 import { User } from '../../core/model/object.model';
 
@@ -19,7 +18,6 @@ import { User } from '../../core/model/object.model';
   imports: [
     CommonModule,
     RouterLink,
-    HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
   ],
@@ -27,17 +25,31 @@ import { User } from '../../core/model/object.model';
   styleUrl: './signin-signup.component.scss',
 })
 export class SigninSignupComponent {
-  // pehla registration form flse rese
+  // Do: aa variable ma login ane register handle karse
   regForm: boolean = false;
+
+  // Do: register mate reactive form
   signUpfrom!: FormGroup;
+
+  //Do: login mate reactive form
   signInfrom!: FormGroup;
 
-  //registration form mate
+  // Do: aa variable jyre register karvanu hase tyare aa button mate che . register vakhat a register aavse 
   signUpsubmitted = false;
+
+  // Do: aa variable ma router link store karavse
   href: string = '';
+
+  // Do: aa variable store karavse k aa buyer hase toh buyer ma redirect thase nakar selller ma
   user_data: any;
+
+  // Do: user ni details User model ma che badhi fields 
   user_dto!: User;
+
+  //Do: registration form na data aama store karavse 
   user_reg_data: any;
+
+  // Do: login ni badhi values aama store thase data
   signInFormValue: any = {};
 
   constructor(

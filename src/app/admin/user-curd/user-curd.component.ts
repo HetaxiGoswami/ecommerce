@@ -20,18 +20,37 @@ declare var $: any;
   styleUrl: './user-curd.component.scss',
 })
 export class UserCurdComponent {
+
+
+  // Do: badha users store thase aa variable ma
   all_user_data: any;
+
+  // Do: particular user ne edit karva mate 
   single_user_data: any;
+
+  // Do: aa add and edit karva mate form laiye te
   addEditUserForm!: FormGroup;
+
+  // Do: aa variable ma user naam nu model banayu che jema badhi fields che 
   user_dto!: User;
+
+  // Do: aa variable ma addEditUserForm nu badhu handle karavse
   user_reg_data: any;
+
+  // Do: edit karva mate particular id
   edit_user_id: any;
+
+  // Do: file upload karva mate
   upload_file_name!: string;
+
+  // Do: three boolean UI ma handle karse jyare ane true thavanu hase tyare thase nakar toh aa false maj rese
   addEditUser: boolean = false; 
   add_user: boolean = false;
   edit_user: boolean = false;
+
+  // Do: text mate che k a add user che k edit user 
   popup_header!: string;
-  signInFormValue: any = {};
+
 
   constructor(
     private formBuilder: FormBuilder,
@@ -40,7 +59,11 @@ export class UserCurdComponent {
   ) {}
 
   ngOnInit(): void {
+
+    // Do: badha user get thase 
     this.getAllUser();
+
+  // Do: form validations withreactive form
     this.addEditUserForm = this.formBuilder.group({
       name: ['', Validators.required],
       mobNumber: ['', Validators.required],
