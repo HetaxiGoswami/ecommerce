@@ -15,6 +15,10 @@ import { CommonModule } from '@angular/common';
 })
 export class UserProfileComponent implements OnInit{
 
+
+// Not working : user profile ma je login hoi tenu profile dekhai and pachi update thai but mara case ma nathi thatu.
+  
+
   userProfileForm!:FormGroup;
   userProfile:boolean = false;
   user_id!:number;
@@ -49,7 +53,6 @@ export class UserProfileComponent implements OnInit{
     this.editUserData(this.user_id)
   }
 
-  // aa fuction je form hase a default set thase form control thi get method thi 
   get rf(){
     return this.userProfileForm.controls;
   }

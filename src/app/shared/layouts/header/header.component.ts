@@ -12,8 +12,10 @@ import { Router, RouterLink } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-
+// Do: login check karse k user login che k nai kyare jyare ngDoCheck hase tyare 
   logged_in: boolean = false;
+
+  // Do: user nu role session storage ma store karavse 
   user_role!: any;
 
   constructor(private router: Router) {}

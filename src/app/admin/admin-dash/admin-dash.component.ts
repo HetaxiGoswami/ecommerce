@@ -12,12 +12,20 @@ import { CommonModule } from '@angular/common';
 })
 export class AdminDashComponent implements OnInit{
 
+
+  //Do: admin na dashboard ma data  get karavana che te aa variable ma store karai daisu 
   user_dashboard_data: any;
+
+ // Do: aa badha count karse k ketla temna users che 
   total_user: number = 0; 
   admin_user: number = 0;
   seller_user: number = 0;
   buyer_user: number = 0;
+
+// Do: aa product ma data che te batavse
   product_dashboard_data: any;
+
+ // Do: aa badha count karse k ketla temna Product che 
   total_product: number = 0;
   publish_product: number = 0;
   inactive_product: number = 0;
